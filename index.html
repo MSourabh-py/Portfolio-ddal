@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- EDIT: Change Page Title if desired -->
+  <title>Sourabh | Mechanical Engineering Portfolio</title>
+  <meta name="description" content="Personal portfolio of Sourabh - First Year B.Tech Mechanical Engineering student.">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts for crisp typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- =========================================================================
+       NAVIGATION BAR (Consistent across all 4 pages)
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">
+        <span class="brand-icon">S</span>
+        <!-- EDIT: Change your name here -->
+        <span>Sourabh</span>
+        <span class="brand-badge">Mech '28</span>
+      </a>
+
+      <!-- Mobile Navigation Hamburger -->
+      <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">My Story</a></li>
+        <li><a href="skills.html" class="nav-link">Skills & Resume</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       PAGE 1: HOME (HERO SECTION)
+       ========================================================================= -->
+  <main class="main-content">
+    <div class="container">
+      
+      <div class="hero-wrapper">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="student-tag">
+            <span class="status-dot"></span>
+            <!-- EDIT: Your program/year details -->
+            <span>1st Year B.Tech Mechanical Engineering Student</span>
+          </div>
+
+          <!-- EDIT: Your Name & Heading -->
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Sourabh</span>.<br>
+            Engineering the Future.
+          </h1>
+
+          <!-- ===============================================================
+               EDIT: YOUR 2-LINE INTRODUCTION (Customizable below)
+               =============================================================== -->
+          <p class="hero-intro">
+            First-year Mechanical Engineering student driven by a deep curiosity for CAD modeling, mechanisms, and thermodynamics.<br>
+            Focused on mastering engineering fundamentals to transform concepts into efficient, real-world physical systems.
+          </p>
+          <!-- ============================================================= -->
+
+          <!-- Quick Action Buttons -->
+          <div class="hero-actions">
+            <a href="skills.html" class="btn btn-primary">
+              <span>View My Skills</span>
+              <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+              </svg>
+            </a>
+            <a href="about.html" class="btn btn-secondary">
+              <span>Read My Story</span>
+            </a>
+            <a href="contact.html" class="btn btn-secondary">
+              <span>Get in Touch</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- ===============================================================
+             EDIT: YOUR PHOTO (Replace "assets/images/avatar-placeholder.svg" 
+             with your photo, e.g. "assets/images/my-photo.jpg")
+             =============================================================== -->
+        <div class="hero-photo-container">
+          <div class="photo-card">
+            <div class="photo-inner">
+              <img src="assets/images/avatar-placeholder.svg" alt="Sourabh - Mechanical Engineering Student" id="profileImage">
+            </div>
+            <div class="photo-caption">
+              <!-- EDIT: Photo caption / your title -->
+              <h4>Sourabh</h4>
+              <p>Undergraduate • Mechanical Engineering</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Highlights for 1st Year Mechanical Engineering -->
+      <section style="margin-top: 3.5rem;">
+        <div class="section-header" style="margin-bottom: 2rem; text-align: left;">
+          <span class="section-tag">First-Year Focus</span>
+          <h2 style="font-size: 1.6rem; font-weight: 700; color: var(--text-main);">What I'm Currently Exploring</h2>
+        </div>
+
+        <div class="quick-features-grid">
+          <!-- Card 1 -->
+          <div class="feature-card">
+            <div class="feature-icon">
+              <!-- Drafting Compass / Ruler Icon -->
+              <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>
+              </svg>
+            </div>
+            <h3>CAD & Engineering Drafting</h3>
+            <p>Developing proficiency in 2D drafting with AutoCAD and foundational 3D parametric part modeling in SolidWorks.</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="feature-card">
+            <div class="feature-icon">
+              <!-- Gear / Mechanism Icon -->
+              <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                <circle cx="12" cy="12" r="3" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3>Mechanics & Prototyping</h3>
+            <p>Hands-on workshop fabrication, understanding materials, tolerancing, kinematics, and basic physical linkages.</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="feature-card">
+            <div class="feature-icon">
+              <!-- Code / Computation Icon -->
+              <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+              </svg>
+            </div>
+            <h3>Engineering Computation</h3>
+            <p>Utilizing Python and C for numerical simulations, matrix computations, and solving core mechanical formulas.</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-text">© 2026 <strong>Sourabh</strong> • First-Year B.Tech Mechanical Engineering</p>
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

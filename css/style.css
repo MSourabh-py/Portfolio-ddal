@@ -351,7 +351,7 @@ body {
 
 .photo-inner {
   position: relative;
-  width: 100%;
+  width: 80%;
   aspect-ratio: 1 / 1;
   border-radius: var(--radius-md);
   overflow: hidden;

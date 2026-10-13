@@ -334,8 +334,8 @@ body {
 
 .photo-card {
   position: relative;
-  width: 80%;
-  max-width: 340px;
+  width: 100%;
+  max-width: 240px;
   background: var(--bg-surface);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
